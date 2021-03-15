@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #f2f2f2;
+    min-height: 100vh;
+    position: relative;
+    line-height: 1.5;
+    padding-bottom: 100px;
+}
+
+.main-container{
+    /* position: relative; */   
+}
+
+.main-container-inner{
+    /* background: orange; */
+    position: relative;
+}
+
+.heading{
+    /* background: orange; */
+    /* height: 100vh; */
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    /* margin-left: 25px; */
+}
+
+.brand a{
+    color: #f39c13;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+.navbarlist ul{
+    list-style: none;
+    padding-top: 10px;
+    /* margin-right: 50px; */
+}
+
+.navbarlist a{
+    color: black;
+    margin: 0;
+    font-family: 'Poppins', cursive;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.content{
+    /* background: orangered; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+
+.content-inner{
+    /* background: orchid; */
+}
+
+.contentbox{
+    /* background: chocolate; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.contentbox h2{
+    font-size: 3rem;
+    font-family: "Fredoka One", cursive;
+    /* color: white; */
+}
+
+.contentbox p{
+    color: black;
+}
+
+.countdown{
+    /* background: chartreuse; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 80px;
+    margin-bottom: 25px;
+}
+
+.daydiv,.hourdiv,.minutediv,.seconddiv{
+    background: #f39c13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+#day,#hour,#minute,#second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #343a40;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.daydiv p,.hourdiv p,.minutediv p,.seconddiv p{
+    font-size: 0.9rem;
+}
+
+.notify{
+    /* background: crimson; */
+}
+
+.notify button{
+    background: #eebb68;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: black;
+    font-weight: 500;
+    transition: background 0.2s ease-in-out
+}
+
+.notify button:hover{
+    background: #f39c13;
+}
+
+.social{
+    width: fit-content;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.social li{
+    list-style: none;
+}
+
+.social a{
+    background: transparent;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 14px;
+    transition: background 0.3s ease-in-out;
+}
+
+.social a:hover{
+    background: #f39c13;
+}
+
+.social img{
+    width: 17px;
+}
+
+.fbimage{
+    width: 10px !important;
+}
+
+.imgbox{
+    /* background: chartreuse; */
+}
+
+.imgbox img{
+    max-width: 500px;
+}
+
+
+
+
+/* .wave{
+    width: 961px;
+    transform: translate(325px);
+    background: yellow;
+}
+
+.wave img{
+    transform: translate(10px);
+} */
+
+
+
+/* header{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    font-size: 28px;
+    text-decoration: none;   
+}
+
+header nav{
+    position: relative;
+}
+
+header nav ul{
+    position: relative;
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: #ff0083;
+}
+
+.main-content{
+    background: red;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 100px;
+}
+
+.contentBx{
+    position: relative;
+    max-width: 600px;
+    z-index: 1000;
+}
+
+.contentBx h2{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contentBx
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
