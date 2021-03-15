@@ -5,7 +5,7 @@ const connectdb=require("./connection/config");
 const favicon = require('serve-favicon');
 const hbs = require("express-handlebars");
 require("dotenv").config();
-connectdb()
+// connectdb()
 let path =require("path");
 
 //allow all origin
