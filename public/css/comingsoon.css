@@ -182,93 +182,32 @@ body{
 }
 
 .imgbox img{
-    max-width: 500px;
+    width: 500px;
 }
 
+@media (max-width: 500px){
+    .content{
+        flex-direction: column-reverse;
+    }
 
+    .imgbox img{
+        width: 125px;
+    }
 
+    .countdown{
+        grid-gap: 10px;
+    }
 
-/* .wave{
-    width: 961px;
-    transform: translate(325px);
-    background: yellow;
+    .daydiv, .hourdiv, .minutediv, .seconddiv{
+        padding: 4px 12px;
+    }
+
+    #day, #hour, #minute, #second{
+        font-size: 2rem;
+    }
+
+    .social a{
+        width: 40px;
+        height: 40px;
+    }
 }
-
-.wave img{
-    transform: translate(10px);
-} */
-
-
-
-/* header{
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 40px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .logo{
-    position: relative;
-    color: #fff;
-    font-weight: 600;
-    font-size: 28px;
-    text-decoration: none;   
-}
-
-header nav{
-    position: relative;
-}
-
-header nav ul{
-    position: relative;
-    display: flex;
-}
-
-header nav ul li{
-    list-style: none;
-}
-
-header nav ul li a{
-    color: #fff;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-header nav ul li a:hover{
-    color: #ff0083;
-}
-
-.main-content{
-    background: red;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 100vh;
-    padding: 0 100px;
-}
-
-.contentBx{
-    position: relative;
-    max-width: 600px;
-    z-index: 1000;
-}
-
-.contentBx h2{
-    font-size: 60px;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.contentBx
-
-.wave{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-} */
