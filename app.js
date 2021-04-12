@@ -13,7 +13,7 @@ app.use((req, res, next)=>{
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, key, Content-Type, Accept, access-control-allow-origin, Authorization, userid");
     next();
-  });
+  }); 
 
 
 
